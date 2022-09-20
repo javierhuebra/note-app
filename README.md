@@ -1,5 +1,5 @@
 # Application to write down tasks to do
-An application to document the tasks that I must carry out
+An application to document the tasks that I must carry out<br>
 Try this project <a href='https://javierhuebra.github.io/note-app'>HERE</a>
 # Responsive format
 <p align="center">
