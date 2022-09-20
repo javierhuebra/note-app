@@ -6,11 +6,121 @@
 
 .App{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(224, 224, 224);
-
     display: flex;
-    justify-content: center;
+    
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
+
+.container-principal{
+    background-color: blueviolet;
+    width: 95vw;
+    min-height: 95vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container-principal h1{
+    color: orange;
+    margin-bottom: 5px;
+}
+.container-principal span{
+    color: rgb(51, 2, 97);
+}
+.formu-container{
+    background-color: orange;
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.formu-container button{
+    width: 22%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 1, 131);
+    color: white;
+    font-weight: bold;
+}
+.formu-container input{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.task{
+    background-color: rgb(57, 4, 107);
+    width: 95vw;
+    margin-bottom: 10px;
+    min-height: 60px;
+    padding: 5px;
+    word-wrap: break-word ;
+    color: white;
+    
+}
+
+.task div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 0;
+    font-size: 25px;
+    color: rgb(151, 0, 151);
+}
+
+.task p{
+    font-size: 12px;
+}
+
+@media (min-width: 600px) {
+    .formu-container{
+        width: 40%;
+        
+    }
+    .taskContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 25px;
+        background-color: rgba(0, 0, 0, 0.295);
+    }
+    .task{
+        width: 250px;
+        margin: 10px 10px 0 0;
+        min-height: 150px;
+        
+        
+    }
+    .task:hover{
+        cursor: pointer;
+        background-color: rgb(255, 167, 2);
+    }
+    .container-principal{
+        width: 98vw;
+        min-height: 98vh;
+    }
+    .container-principal h1{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+}
+

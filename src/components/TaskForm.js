@@ -25,9 +25,10 @@ const TaskForm = ({ envioDeLaTarea }) => {
             completed: false,
         };
         envioDeLaTarea(newTask);
+        e.target.reset();
     };
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="formu-container" onSubmit={handleSubmit}>
             <input
                 type="text"
                 placeholder="Write your task"

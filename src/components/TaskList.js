@@ -19,7 +19,8 @@ const TaskList = () => {
     }
 
     return (
-        <div>
+        <div className="container-principal">
+            <h1>To do <span>App</span></h1>
             <TaskForm envioDeLaTarea={addTask} />
             <div className="taskContainer">
                 {tasks.map((task) => {
