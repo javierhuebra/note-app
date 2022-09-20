@@ -3,8 +3,8 @@ An application to document the tasks that I must carry out
 
 # Responsive format
 <p align="center">
-	<img  src='./images/task1.png'/>
-	<img  src='./images/task2.png'/>
+	<img  src='./src/images/task1.png'/>
+	<img  src='./src/images/task2.png'/>
 </p>
 
 # Tools used
